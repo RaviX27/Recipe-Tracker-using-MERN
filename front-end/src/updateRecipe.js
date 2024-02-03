@@ -49,8 +49,6 @@ const UpdateRecipe = () => {
       if (response.ok) {
         console.log("Recipe updated successfully");
         window.alert("Recipe updated successfully");
-        setIngredients("");
-        setDescription("");
       } else {
         console.error("Failed to update recipe");
         window.alert("Failed to update recipe");
