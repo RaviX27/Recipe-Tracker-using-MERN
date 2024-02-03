@@ -77,9 +77,10 @@ const UpdateRecipe = () => {
           sx={{
             color: "#000000",
             marginBottom: "10px",
-            fontSize: "21px",
-            fontWeight: "bold",
+            fontSize: "24px",
             textAlign: "center",
+            fontFamily:'Arial, sans-serif',
+            fontWeight: 'bold',
           }}
         >
           Update Recipe - {name}

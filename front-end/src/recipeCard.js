@@ -75,9 +75,9 @@ const RecipeCard = ({ titles }) => {
             alignItems: "center",
             justifyContent: "center",
             cursor: "pointer",
-            backgroundColor: "#87CEEB",
+            backgroundColor: "#7ED7C1",
             "&:hover": {
-              backgroundColor: "#6CA6CD",
+              backgroundColor: "#C8FFE0",
             },
           }}
           onClick={() => navigate("/addrecipe")}
@@ -104,9 +104,9 @@ const RecipeCard = ({ titles }) => {
           <Card
             key={index}
             sx={{
-              backgroundColor: "#87CEEB",
+              backgroundColor: "#7ED7C1",
               "&:hover": {
-                backgroundColor: "#6CA6CD",
+                backgroundColor: "#C8FFE0",
               },
             }}
           >
@@ -132,8 +132,8 @@ const RecipeCard = ({ titles }) => {
                 sx={{
                   color:'black',
                   "&:hover": {
-                    backgroundColor: "#E893CF",
-                    color:'blue',
+                    backgroundColor: "#FEA82F",
+                    color:'#fff',
                   },
                 }}
               >
@@ -147,8 +147,8 @@ const RecipeCard = ({ titles }) => {
                 sx={{
                   color:'black',
                   "&:hover": {
-                    backgroundColor: "#E893CF",
-                    color:'blue',
+                    backgroundColor: "#FEA82F",
+                    color:'#fff',
                   },
                 }}
               >

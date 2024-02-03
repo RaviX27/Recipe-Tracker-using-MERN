@@ -25,7 +25,8 @@ export default function DisplayRecipe({ recipe }) {
       <Card sx={{ 
           width: '50%',
           height: '50%',
-          backgroundColor:'#87CEEB',
+          backgroundColor:'#C8FFE0',
+          borderColor:"Black",
       }}>
         <CardActionArea>
           <CardMedia

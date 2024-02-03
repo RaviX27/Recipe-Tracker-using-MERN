@@ -38,9 +38,7 @@ const AddRecipe = () => {
       window.alert("Failed to save recipe");
       console.error("Error saving recipe:", error);
     }
-    
   };
-  
 
   const handleInputChange = (e) => {
     // Update the recipeData state when input values change
@@ -57,11 +55,11 @@ const AddRecipe = () => {
       justifyContent="center"
       alignItems="center"
       sx={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'flex-start',
-        gap: '16px',
-        padding: '100px 500px', 
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "flex-start",
+        gap: "16px",
+        padding: "100px 500px",
       }}
     >
       <Grid item xs={12}>
